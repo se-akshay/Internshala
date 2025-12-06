@@ -1,16 +1,46 @@
-# React + Vite
+# Redux CRUD Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple user management app built with React and Redux Toolkit. You can add, edit, and delete users.
 
-Currently, two official plugins are available:
+## What it does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Get users from API
+- Add new users
+- Update user details
+- Delete users
+- Shows loading when fetching data
+- Shows error if something goes wrong
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React with Vite
+- Redux Toolkit for state management
+- Axios for API calls
 
-## Expanding the ESLint configuration
+## How to Run This Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **First clone this repo**
+
+   ```bash
+   git clone https://github.com/se-akshay/Internshala
+   cd redux-crud-dashboard
+   ```
+
+2. **Install all packages**
+
+   npm install
+
+3. **Start the app**
+
+   npm run dev
+
+4. **Open in browser**
+
+   Go to `http://localhost:5173/` in your browser
+
+## Commands
+
+- `npm run dev` - runs the app locally
+
+
+
